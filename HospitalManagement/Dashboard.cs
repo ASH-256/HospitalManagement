@@ -23,6 +23,7 @@ namespace HospitalManagement
             panel1.Visible = false;
             panel2.Visible = false;
             panel3.Visible = false;
+            panel4.Visible = false;
         }
 
        
@@ -31,6 +32,7 @@ namespace HospitalManagement
             panel1.Visible = true;
             panel2.Visible = false;
             panel3.Visible = false;
+            panel4.Visible = false;
             btnNewPatient.BackColor = Color.LightBlue;
             btnDiagnosisInformation.BackColor = Color.LightGreen;
             btnHistory.BackColor = Color.LightGreen;
@@ -41,6 +43,7 @@ namespace HospitalManagement
         {
             panel1.Visible = false;
             panel3.Visible = false;
+            panel4.Visible = false;
             panel2.Visible = true;
             btnDiagnosisInformation.BackColor = Color.LightBlue;
             btnNewPatient.BackColor = Color.LightGreen;
@@ -53,6 +56,7 @@ namespace HospitalManagement
         {
             panel1.Visible = false;
             panel2.Visible = false;
+            panel4.Visible = false;
             panel3.Visible = true;
             btnHistory.BackColor = Color.LightBlue;
             btnNewPatient.BackColor = Color.LightGreen;
@@ -81,7 +85,7 @@ namespace HospitalManagement
             btnHistory.BackColor = Color.LightGreen;
             btnNewPatient.BackColor = Color.LightGreen;
             btnDiagnosisInformation.BackColor = Color.LightGreen;
-
+            panel4.Visible = true;
         }
 
         private void btnSave_Click(object sender, EventArgs e)
@@ -208,8 +212,6 @@ namespace HospitalManagement
 
         }
 
-       
-
-       
+        
     }
 }
